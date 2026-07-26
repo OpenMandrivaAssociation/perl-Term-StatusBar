@@ -1,15 +1,13 @@
 %define upstream_name    Term-StatusBar
-%define upstream_version 1.18
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	6
+Version:	1.18
+Release:	7
 
 Summary:	Dynamic progress bar
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/Term-StatusBar
-Source0:	https://cpan.metacpan.org/authors/id/S/SH/SHAYH/Term-StatusBar-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/S/SH/SHAYH/Term-StatusBar-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
